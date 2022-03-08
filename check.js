@@ -1,5 +1,6 @@
 var $link = $(".section-register [onclick]:eq(0)");
 
+console.log($link);
 console.log($link.attr("onclick"));
 
 
