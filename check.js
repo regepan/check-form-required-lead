@@ -1,6 +1,6 @@
-var $link = $(".section-register [onclick]");
+var $link = $(".section-register [onclick]:eq(0)");
 
-console.log($link);
+console.log($link.attr("onclick"));
 
 
 // if (-1 < location.search.indexOf("seminar_master_id")) {
